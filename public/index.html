@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hello World!🌐</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: url('https://i.ibb.co/d4MCMB4V/485393413-9830556380321920-2802342510733691364-n.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px 60px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    max-width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    background: #667eea;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.6);
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn:hover {
+    background: #5a67d8;
+    transform: translateY(-3px);
+  }
+  .btn:active {
+    transform: translateY(1px);
+  }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .btn {
+      padding: 12px 24px;
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>¡Hello World!!💻</h1>
+    <div class="buttons">
+      <a href="https://distributed-architecture.vercel.app/" class="btn" role="button" aria-label="Regresar al menú">Return to menu</a>
+    </div>
+  </div>
+</body>
+</html>
+
